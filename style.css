@@ -1,0 +1,153 @@
+.menu   {
+    background-color: #45015d;
+    color: white;
+    width: 150px;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 8px 16px;
+    font-weight: 600;
+    
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.main {
+    margin: 80px 40px 0 360px;
+}
+
+.images img{
+    width: 45%;
+    margin: 5px ;
+    border-radius: 8px;
+}
+
+hr {
+    border: 5px solid #45015d;
+    border-radius: 4px;
+}
+
+h2 {
+    color: #45015d;
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+
+.designer {
+    border-width: 2px;
+    border-color: aliceblue;
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.designer img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 7px;
+    
+}
+
+.packages ul{
+    list-style-type: none;
+}
+
+.tarif {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin: 10px;
+    
+    }
+
+.tarif ul{
+    background-color:#f1f1f1;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.tarif li{
+    padding: 15px 0;
+    border-bottom: solid 1px grey;
+    border-radius: 10px;
+}
+
+
+
+
+#basic {
+    background-color:#45015d;
+    color: white;
+    padding: 32px;
+    font-size: 24px;
+        
+    }
+
+#pro {
+    background-color:orangered;
+    color: white;
+    padding: 32px;
+    font-size: 24px;
+    }
+
+#basiclink {
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    background-color:white;
+    padding: 8px 12px;
+    border-radius: 12px;
+    }
+
+#prolink {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color:orangered;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact input {
+    width: 100%;
+    padding: 8px;
+}
+
+.contact button {
+    width: 100%;
+    background-color: #45015d;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+    
